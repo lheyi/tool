@@ -25,7 +25,7 @@ def loadEnv():
     # path = "D:\\CodeSource\\buildaab\\dist"
     # if isLinux():
     path = os.path.realpath(os.path.join(sys.executable, "../"))
-    LinuxPath = "/root/Desktop/tool/build-aab/dist/"
+    LinuxPath = "/root/Desktop/tool/buildaab/dist/"
     with open(os.path.join(LinuxPath, "project.config")) as f:
         for l in f.readlines():
             l = l.replace("\n", "")
